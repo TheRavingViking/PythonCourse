@@ -4,8 +4,8 @@ print("Double quotes")
 
 print('concatena'+'tion')
 
-print 'hello', 'there'
+print('hello', 'there')
 
-print ("I'm 5")
+print("I'm 5")
 
-print ('he said "hi"')
+print('he said "hi"')
