@@ -4,21 +4,21 @@ name = input('What is your name?: ')
 print('hello', name)
 '''
 
-import statistics
+import statistics as s
 
 exlist = [8, 1, 1, 7, 6, 3, 4]
 
-x = statistics.mean(exlist)
+x = s.mean(exlist)
 print(x)
 
-x = statistics.median(exlist)
+x = s.median(exlist)
 print(x)
 
-x = statistics.mode(exlist)
+x = s.mode(exlist)
 print(x)
 
-x = statistics.stdev(exlist)
+x = s.stdev(exlist)
 print(x)
 
-x = statistics.variance(exlist)
+x = s.variance(exlist)
 print(x)
